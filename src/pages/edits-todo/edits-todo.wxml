@@ -1,0 +1,8 @@
+<view class="page-edit-todo">
+  <view class="edit-todo">
+    <input class="edit-todo-input" placeholder="What needs to be done?" bindblur="onBlur" value="{{inputValue}}" />
+  </view>
+  <view class="todo-footer">
+    <add-button text="Edit Todo" onClickMe="edit"></add-button>
+  </view>
+</view>

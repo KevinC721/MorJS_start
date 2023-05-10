@@ -1,0 +1,26 @@
+{
+  "name": "morjs_start",
+  "version": "1.0.0",
+  "description": "morjs study",
+  "scripts": {
+    "dev": "mor compile --watch",
+    "compile": "mor compile --production"
+  },
+  "keywords": [],
+  
+  "author": "Kevin <>",
+  
+  
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KevinC721/MorJS_start.git"
+  },
+  
+  "license": "",
+  "dependencies": {
+    "@morjs/core": "*"
+  },
+  "devDependencies": {
+    "@morjs/cli": "*"
+  }
+}
